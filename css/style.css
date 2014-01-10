@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSSリセット */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,
+pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,
+strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,
+caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,
+figure,footer,header,hgroup,menu,nav,section,summary,time,mark,
+audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;
+vertical-align:baseline;background:transparent;font-weight:normal;}
+body{line-height:1}article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section{display:block}
+ul{list-style:none}blockquote,q{quotes:none}blockquote:before,
+blockquote:after,q:before,q:after{content:none}a{margin:0;padding:0;
+font-size:100%;vertical-align:baseline;background:transparent}
+del{text-decoration:line-through}abbr[title],dfn[title]
+{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;
+margin:1em 0;padding:0}input,select{vertical-align:middle}
+body{
+     background: #EEEEEE;
+     font: 16px/20px "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",'メイリオ',Meiryo,Helvetica,Arial,Sans-Serif;
+     color: #111;
+}
+ 
+a{
+    color: #69c;
+}
+
+a:hover{
+    color: #069;
+}
+
+#wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+
+header{
+     margin: 50px 0 15px;
+     overflow: hidden;
+}
+
+nav{
+    float: right;
+    margin-top: 35px;
+    font-size: 125%;
+}
+nav li{
+    display: inline;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: WHITE;
+    border: 1px #AAA solid;
+    padding: 5px;
+}
+nav a{
+    color: #666;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #69c;
+}
+
+#contents{
+    background-color: WHITE;
+    border: 1px #AAA solid;
+    padding: 5px;
+}
+
+footer p{
+     background: #888888;
+     width: 200px;
+     margin: 50px auto 20px;
+     padding: 5px;
+     text-align: center;
+     font-size: 75%;
+}
+footer p small{
+    color: #fff;
+    border: 1px #fff solid;
+    padding: 10px;
+    display: block;
+}
+footer a{
+    color: #fff
+}
