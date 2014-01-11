@@ -1,4 +1,4 @@
 プログラミング仕様
     
     言語: Ruby 2.1
-    フレームワーク: Ruby on rails 4
+    フレームワーク: Ruby on rails 4.02
